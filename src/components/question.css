@@ -1,0 +1,197 @@
+.test__container{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    .test1{
+        flex:6;
+        text-align: center;
+    
+    }
+    .test2{
+        flex:6;
+        height:25vh
+    }
+    .test2__img{
+        object-fit: cover;
+        height: 25vh;
+    }
+    .question{
+        display: flex;
+        justify-content: space-between;
+        background: white
+        
+        
+    }
+    .question1{
+        flex: 8;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+        margin: 20px 20px 20px 20px;
+        
+    }
+    p{
+        margin:20px;
+    }
+    .answer{
+        flex:4;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      margin: 20px;
+      width: 50%;
+        }
+    h3{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 5px;
+        color: lightgreen;
+        font-size: 2.1rem;
+    }
+    /*.input1,.input2,
+    .input3,.input4{
+        margin-right: 30px;
+        margin:10px 10px;
+        font-size: 3rem;
+    }*/
+    .list{
+        list-style: none;
+        margin: 30px,0px,30px,0px;
+        display: column;
+    
+    }
+    .report{
+        display: flex;
+       justify-content: space-evenly;
+        align-items: center;
+    }
+    #report1,#report2,#report3{
+        margin:20px ;
+    }
+    
+    .btnclass{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .btnclass1{
+        margin: 30px;
+        padding: 10px;
+        font-size: 1.5rem;
+        background: gray;
+        color: white;
+    }
+    .btnclass2{
+        padding: 10px;
+        font-size: 1.5rem;
+        background: blue;
+        color: white;
+    }
+    .checkbox__container{
+        
+        align-items: center;
+    }
+    .checkbox__container label{
+        
+        display: flex;
+    }
+    .checkbox__container input[type="checkbox"]{
+        
+        opacity: 0;
+        position: absolute;
+    }
+    .checkbox__container label::before{
+    content: '';
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: .15em;
+    margin-right: .5em;
+    border: .05em solid black;
+    }
+    .checkbox__container > li input[type="checkbox"]:checked + label::before{
+        content: "\002714";
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .report label{
+        cursor: pointer;
+        display: flex;
+    }
+    .report input[type="checkbox"]{
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+    }
+    .report label::before{
+        content: '';
+        width: 1.3em;
+        height: 1.3em;
+        border-radius: .15em;
+        margin-right: .5em;
+        border: .05em solid black;
+        }
+        #report3 input[type="chechbox"]{
+            background: orangered;
+        }
+        #report1{
+            background: green;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+        }
+        .answer-section-wrapper{
+            
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        .answer-list{
+            list-style: none;
+            width: 100%;
+            margin: 30px 0px 30px 0px;
+            display: flex;
+        }
+        .answer-button{
+            width: 85%;
+            font-size: 24px;
+            color: #fff;
+            background-color: #53052f;
+            border-radius: 15px;
+            padding: 5px;
+            border: 3px solid #fff;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+        label.radio{
+            display: block;
+            text-align: left;
+            padding: 15px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        label.radio+.radio{
+            margin-left: 0;
+
+        }
+        label.radio input{
+            margin-right: 10px;
+        }
+        .qus{
+            margin-top: 10px;
+            margin-left: 10px;
+            font-weight: 400;
+        }
+        @media only screen and (min-width:320px) and (max-width:780px){
+            .question{
+                width: 100%;
+                display: block
+            }
+            .qus{
+                font-weight: 100;
+                font-size: 1.3rem;
+            }
+            .answer{
+                margin: 3px;
+               width: 100%;
+                }
+        }

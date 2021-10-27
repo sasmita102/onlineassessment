@@ -1,0 +1,80 @@
+.mock__container{
+    width: 100%;
+    height: 45vh;
+    background: white;
+    border-radius: 40px  40px 0;
+    
+    
+}
+.itemcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mock__item1{
+     flex:4;
+    background: yellow;
+    height: 30vh;
+    margin: 5px 16px 16px 8px;
+ 
+
+}
+.mock__item2,
+.mock__item3,.mock__item4{
+     flex:4;
+   background: yellow;
+   height: 30vh;
+   margin: 30px 30px 30px 30px;
+
+}
+.img1,.img2,
+.img3,.img4{
+    object-fit: cover;
+    height: 30vh;
+}
+.mock__btn{
+    display: flex
+}
+.btn1{
+    background: plum;
+    font-size: 1.8rem;
+    flex:4;
+    margin:0 20px 10px 0;
+
+}
+.btn2{
+    background:orange;
+    font-size: 1.8rem;
+    flex:4;
+    margin: 0 20px 10px 0;
+}
+    
+
+.btn3{
+    background:greenyellow;
+    font-size: 1.8rem;
+    flex:4;
+    margin: 0 20px 10px 0;
+
+    
+}
+.btn4{
+    background:lightblue;
+    font-size: 1.8rem;
+    flex:4;
+    margin: 0 20px 10px 0;
+
+    
+}
+@media only screen and (min-width:320px) and (max-width:780px){
+    .mock__container{
+        height: 150vh;
+    }
+    .itemcontainer{
+   display: block;
+}
+.mock__btn{
+    display: none;
+}
+
+}

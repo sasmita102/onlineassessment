@@ -1,0 +1,111 @@
+{"data":[
+    {
+        "question":"what is the full form of WWW?",
+        "choices":[
+            "world width web",
+            "world war won",
+            "world wide web",
+            "world web wide"
+        ],
+        "answer":"world wide web"
+
+
+    },
+    {
+        "question":"who maintains React?",
+        "choices":[
+            "Google",
+            "Amazon",
+            "Facebook",
+            "Apple"
+        ],
+        "answer":"Facebook"
+    },
+    {
+        "question":"what is the capital of USA?",
+        "choices":[
+            "NewYork",
+            "WashingtonDc",
+            "Chicago",
+            "Florida"
+        ],
+        "answer":"WashingtonDc"
+    },
+    {
+        "question":"what is the full form of WWW?",
+        "choices":[
+                 "world width web",
+                    "world war won",
+                    "world wide web",
+                    "world web wide"
+        ],
+        "answer":"world wide web"
+
+        
+    },
+    {
+        "question":"who maintains React?",
+        "choices":[
+            "Google",
+            "Amazon",
+            "Facebook",
+            "Apple"
+        ],
+        "answer":"Facebook"
+    },
+    {
+        "question":"what is the capital of USA?",
+        "choices":[
+            "NewYork",
+            "WashingtonDc",
+            "Chicago",
+            "Florida"
+        ],
+        "answer":"WashingtonDc"
+    },
+    
+    {
+    "question":"what is the full form of WWW?",
+    "choices":[
+        "world width web",
+        "world war won",
+        "world wide web",
+        "world web wide"
+    ],
+    "answer":"world wide web"
+
+},
+{
+    "question":"who maintains React?",
+    "choices":[
+        "Google",
+        "Amazon",
+        "Facebook",
+        "Apple"
+    ],
+    "answer":"Facebook"
+},
+{
+    "question":"what is the capital of USA?",
+    "choices":[
+        "NewYork",
+        "WashingtonDc",
+        "Chicago",
+        "Florida"
+    ],
+    "answer":"WashingtonDc"
+},
+{
+    "question":"what is the full form of WWW?",
+"choices":[
+        "world width web",
+        "world war won",
+        "world wide web",
+        "world web wide"
+    ],
+    "answer":"world wide web"
+    
+}
+
+]
+}

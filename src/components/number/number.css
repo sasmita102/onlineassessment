@@ -1,0 +1,63 @@
+.number,.number1{
+    display: flex;
+}
+
+.one{
+    border:1px solid black;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 40px 0 0 0;
+    background: green;
+}
+.two,.three{
+    border:1px solid black;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px 0 0 0;
+}
+.four{
+    border:1px solid black;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px 0 0 0;
+    background: orange;
+
+}
+.btnsub{
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding: 12px;
+    width: 80%;
+    background: lightblue;
+}
+@media only screen and (min-width:320px) and (max-width:780px){
+    .one{
+        border:1px solid black;
+        padding: 4px;
+        width: 50%;
+        height: 50%;
+        border-radius: 40px 0 0 0;
+        background: green;
+    }
+    .two,.three{
+        border:1px solid black;
+        padding: 4px;
+        width: 50%;
+        height: 50%;
+        border-radius: 35px 0 0 0;
+    }
+    .four{
+        border:1px solid black;
+        padding: 4px;
+        width: 40%;
+        height: 45%;
+        border-radius: 35px 0 0 0;
+        background: orange;
+    
+    }
+}

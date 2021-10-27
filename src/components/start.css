@@ -1,0 +1,50 @@
+.container{
+    background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container__right{
+        flex: 5;
+        text-align: center;
+    }
+    .container__left{
+        width: 200%;
+        height: 40vh;
+        background-repeat: no-repeat;
+      background-image: url(https://www.testinvite.com/tif/gb/images/hero/proctored-exam-with-webcam-and-screen-recording-lockdown-browser.png);
+       object-fit: cover;
+        flex: 7;
+        text-align: center;
+    
+    }
+    /*.image{
+        background: url(D:\PrepByte\react-first-project\onlineassessment\src\image\google_pie-1024x872.png);
+        width: 30%;
+        height: 10vh;
+        
+    }*/
+    .right__button{
+        padding: 10px;
+        width:60%;
+        height: 60%;
+    }
+    @media only screen and (min-width:320px) and (max-width:780px){
+        .container{
+            display: block;
+        }
+        .container__right{
+            width: 100%;
+            margin: auto;
+        }
+        .container__left{
+            width: 100%;
+            margin-left: -50px ;
+            margin-bottom: 15px;
+            object-fit: cover;
+            height: 60vh;
+            text-align: center;
+       
+     
+        }
+    }
